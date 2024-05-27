@@ -1,3 +1,4 @@
-h1{
-    font-family: sans-serif;
+.bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 61 73 / var(--tw-bg-opacity));
 }
