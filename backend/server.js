@@ -22,7 +22,10 @@ app.post("/send-email", (req, res) => {
     from: "",
     to: "",
     subject: "Messestand Anfrage",
-    text: `Name: ${name}\nEmail: ${email}\Nachricht: ${message}`,
+    text: `
+      Name: ${name}\n
+      Email: ${email}\n
+      Nachricht: ${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
