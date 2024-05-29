@@ -7,18 +7,15 @@ export default function NavElement() {
   return (
     <Navbar className="bg-maincolor">
       <Container id="C1">
-        <picture src="LogoHAKHASITHTL_white.png"></picture>
+        <img src="./LogoHAKHASITHTL_white.png" className="w-24 bg-black"></img>
 
         <Navbar.Brand href="/">SZ-Ybbs Messestand</Navbar.Brand>
       </Container>
       <Container id="C2">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-0">
-            <Nav.Link href="#home">News</Nav.Link>
-            <Nav.Link href="#link">Kontaktformular</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
+        <Nav className="me-0">
+          <Nav.Link href="#home">News</Nav.Link>
+          <Nav.Link href="#link">Kontaktformular</Nav.Link>
+        </Nav>
       </Container>
     </Navbar>
   );
