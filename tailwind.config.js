@@ -5,7 +5,9 @@ module.exports = {
     colors: {
       mainbg: "#003d49",
       maincolor: "#00aac9",
+      fontWhite: "#ffffff",
     },
+    
 
     extend: {},
   },

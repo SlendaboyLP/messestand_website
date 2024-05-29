@@ -8,11 +8,12 @@ import "./App.css"
 function App() {
   return (
     <>
-      <Navbar className="bg-slate-400">
+      <Navbar className="bg-maincolor">
         <Container id="C1">
-        <img src="logo.svg"></img>
-          <Navbar.Brand href="#home">SZ-Ybbs Messestand</Navbar.Brand>
-        </Container>
+        <picture src='LogoHAKHASITHTL_white.png'></picture>
+        
+          <Navbar.Brand href="#home" >SZ-Ybbs Messestand</Navbar.Brand>
+        </Container>  
         <Container id="C2">
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
