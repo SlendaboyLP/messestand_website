@@ -45,6 +45,7 @@ function App() {
               <input
                 type="text"
                 name="name"
+                value={name}
                 className="w-1/2 rounded-md h-8 mt-1 text-black p-1 border-1 border-black"
                 onChange={(e) => setName(e.target.value)}
                 required
@@ -62,7 +63,7 @@ function App() {
               />
             </label>
             <label className="flex flex-col items-center my-2">
-              Message:
+              Nachricht:
               <textarea
                 name="message"
                 value={message}
