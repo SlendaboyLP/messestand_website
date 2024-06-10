@@ -6,7 +6,7 @@ export default function NavElement() {
   return (
     <Navbar className="bg-maincolor">
       <Container id="C1">
-        <img src="./LogoHAKHASITHTL_white.png" className="w-24 bg-black"></img>
+        <img src="./LogoHAKHASITHTL_white.webp" className="w-24 bg-fontWhite"></img>
 
         <Navbar.Brand href="/">SZ-Ybbs Messestand</Navbar.Brand>
       </Container>
