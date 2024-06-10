@@ -86,7 +86,7 @@ function App() {
                 value="Submit"
                 className="mt-4 rounded-md bg-black text-fontWhite p-2 w-1/4  cursor-pointer "
                 onClick={async () => {
-                  await fetch("localhost:3001/send-email", {
+                  await fetch("http://localhost:3001/send-email", {
                     method: "POST",
                     headers: {
                       "Content-Type": "application/json",
