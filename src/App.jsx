@@ -85,6 +85,16 @@ function App() {
                 type="submit"
                 value="Submit"
                 className="mt-4 rounded-md bg-black text-fontWhite p-2 w-1/4  cursor-pointer "
+                onClick={async () => {
+                  await fetch("localhost:3001/send-email", {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ name, email, message }),
+                  });
+                  alert("Nachricht wurde gesendet");
+                }}
               />
             </div>
           </form>

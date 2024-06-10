@@ -1,7 +1,10 @@
-const express = require("express");
-const nodemailer = require("nodemailer");
-const cors = require("cors");
-const bodyParser = require("body-parser");
+import express from "express";
+import nodemailer from "nodemailer";
+import cors from "cors";
+import bodyParser from "body-parser";
+
+const EMAIL = "";
+const PASSWORD = "";
 
 const app = express();
 app.use(cors());
@@ -13,14 +16,14 @@ app.post("/send-email", (req, res) => {
   let transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "",
-      pass: "",
+      user: EMAIL,
+      pass: PASSWORD,
     },
   });
 
   let mailOptions = {
-    from: "",
-    to: "",
+    from: EMAIL,
+    to: EMAIL,
     subject: "Messestand Anfrage",
     text: `
       Name: ${name}\n

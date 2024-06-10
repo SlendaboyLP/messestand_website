@@ -7,7 +7,6 @@ module.exports = {
       maincolor: "#00aac9",
       fontWhite: "#ffffff",
     },
-    
 
     extend: {},
   },
