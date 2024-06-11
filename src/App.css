@@ -1,0 +1,13 @@
+.navbar-brand {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem; 
+    color: white;
+  }
+  
+  .nav-link {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
